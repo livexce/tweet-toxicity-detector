@@ -2,6 +2,7 @@ import json
 import os
 from pathlib import Path
 
+
 def main():
     os.makedirs("data/raw", exist_ok=True)
     # Simulation d’appel API
