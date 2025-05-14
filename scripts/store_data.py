@@ -6,15 +6,18 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 # Définition du modèle de données
 Base = declarative_base()
 
+
 class Tweet(Base):
     __tablename__ = "tweets"
     id = Column(Integer, primary_key=True, autoincrement=True)
     text = Column(Text)
     label = Column(Integer)
 
+
 # Connexion à SQLite
 engine = create_engine("sqlite:///data/raw/tweets.db")
 Session = sessionmaker(bind=engine)
+
 
 def store_tweets():
     Base.metadata.create_all(engine)
@@ -28,6 +31,7 @@ def store_tweets():
     session.commit()
     session.close()
     print("✅ Tweets stockés dans data/raw/tweets.db")
+
 
 if __name__ == "__main__":
     store_tweets()
