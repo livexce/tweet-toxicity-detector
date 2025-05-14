@@ -1,0 +1,5 @@
+{
+  "type": "NLP",
+  "endpoint": "https://api.exemple.com/tweets",
+  "params": { "q": "#toxicity", "limit": 50 }
+}
