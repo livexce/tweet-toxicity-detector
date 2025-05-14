@@ -1,13 +1,8 @@
-import json, os
+import json
+import os
 from pathlib import Path
 
-
-def load_config(path="config/scraper.json"):
-    return json.load(open(path))
-
-
 def main():
-    cfg = load_config()
     os.makedirs("data/raw", exist_ok=True)
     # Simulation d’appel API
     sample_tweets = [
