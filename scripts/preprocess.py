@@ -3,7 +3,6 @@ import pandas as pd
 from sklearn.pipeline import Pipeline
 from sklearn.base import TransformerMixin
 from sklearn.feature_extraction.text import TfidfVectorizer
-import spacy
 from pathlib import Path
 
 
@@ -22,6 +21,8 @@ def drop_duplicates_and_na(df, text_col):
 # Lemmatisation
 class SpacyLemmatizer(TransformerMixin):
     def __init__(self, model="en_core_web_sm"):
+        import spacy
+
         self.nlp = spacy.load(model)
 
     def fit(self, X, y=None):
