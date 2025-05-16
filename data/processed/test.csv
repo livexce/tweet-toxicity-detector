@@ -1,0 +1,12 @@
+text,label,length,word_count
+Ce message est non toxique 20,0,29,6
+Ce message est non toxique 9,0,28,6
+Ce message est non toxique 14,0,29,6
+Ce message est toxique 19,1,25,5
+Ce message est non toxique 13,0,29,6
+Ce message est non toxique 19,0,29,6
+Ce message est toxique 16,1,25,5
+Ce message est toxique 13,1,25,5
+Ce message est toxique 1,1,24,5
+Ce message est non toxique 24,0,29,6
+Ce message est toxique 6,1,24,5

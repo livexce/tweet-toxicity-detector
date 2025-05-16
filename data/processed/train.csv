@@ -1,0 +1,33 @@
+text,label,length,word_count
+Ce message est non toxique 12,0,29,6
+Ce message est toxique 24,1,25,5
+Ce message est non toxique 4,0,28,6
+Ce message est non toxique 22,0,29,6
+Ce message est toxique 21,1,25,5
+Ce message est toxique 0,1,24,5
+Ce message est non toxique 2,0,28,6
+Ce message est non toxique 5,0,28,6
+I hate you,1,10,3
+Ce message est non toxique 21,0,29,6
+Ce message est toxique 22,1,25,5
+Ce message est toxique 23,1,25,5
+Ce message est toxique 3,1,24,5
+Ce message est non toxique 7,0,28,6
+Ce message est toxique 8,1,24,5
+Ce message est non toxique 6,0,28,6
+Ce message est toxique 9,1,24,5
+Ce message est non toxique 8,0,28,6
+Ce message est non toxique 17,0,29,6
+Ce message est toxique 18,1,25,5
+Ce message est non toxique 18,0,29,6
+Ce message est toxique 4,1,24,5
+Ce message est non toxique 16,0,29,6
+Ce message est toxique 12,1,25,5
+Ce message est toxique 20,1,25,5
+Ce message est toxique 15,1,25,5
+Ce message est non toxique 3,0,28,6
+Ce message est toxique 5,1,24,5
+Ce message est non toxique 15,0,29,6
+Ce message est toxique 10,1,25,5
+Ce message est non toxique 1,0,28,6
+Ce message est non toxique 11,0,29,6
