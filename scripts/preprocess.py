@@ -36,10 +36,12 @@ class SpacyLemmatizer(TransformerMixin):
 
 # Pipeline NLP
 def build_text_pipeline():
-    return Pipeline([
-        ("lemmatizer", SpacyLemmatizer()),
-        ("tfidf", TfidfVectorizer(max_features=500))
-    ])
+    return Pipeline(
+        [
+            ("lemmatizer", SpacyLemmatizer()),
+            ("tfidf", TfidfVectorizer(max_features=500)),
+        ]
+    )
 
 
 def main():
