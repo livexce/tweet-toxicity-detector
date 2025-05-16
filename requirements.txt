@@ -4,3 +4,7 @@ black
 flake8
 isort
 sqlalchemy
+pandas
+numpy
+scikit-learn
+spacy
