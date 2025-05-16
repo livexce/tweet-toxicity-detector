@@ -1,12 +1,17 @@
 from pathlib import Path
 import pandas as pd
 import joblib
-import sys
 
-# Permet d'importer depuis src/
-sys.path.append(str(Path(__file__).resolve().parent.parent / "src"))
+# ✅ On fait l'import "tuning" à la toute fin
+if __name__ == "__main__":
+    import sys
 
-from tuning import grid_search, random_search  # 👈 Import depuis src
+    SRC_DIR = str(Path(__file__).resolve().parent.parent / "src")
+    if SRC_DIR not in sys.path:
+        sys.path.insert(0, SRC_DIR)
+
+    from tuning import grid_search, random_search
+
 
 # 📂 Chemin des données
 DATA_DIR = Path("data/processed")
