@@ -5,6 +5,7 @@ import pandas as pd
 spacy_available = False
 try:
     import spacy
+
     spacy_available = True
 except ImportError:
     pass
