@@ -18,10 +18,9 @@ val = pd.read_csv(DATA_DIR / "val.csv")
 test = pd.read_csv(DATA_DIR / "test.csv")
 
 # 🧪 Pipeline avec TF-IDF + Logistic Regression
-pipeline = Pipeline([
-    ("tfidf", TfidfVectorizer()),
-    ("clf", LogisticRegression(max_iter=1000))
-])
+pipeline = Pipeline(
+    [("tfidf", TfidfVectorizer()), ("clf", LogisticRegression(max_iter=1000))]
+)
 
 # 🚂 Entraînement
 pipeline.fit(train["text"], train["label"])
