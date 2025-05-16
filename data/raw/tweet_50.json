@@ -1,0 +1,202 @@
+[
+  {
+    "text": "Ce message est non toxique 4",
+    "label": 0
+  },
+  {
+    "text": "Ce message est toxique 20",
+    "label": 1
+  },
+  {
+    "text": "Ce message est non toxique 1",
+    "label": 0
+  },
+  {
+    "text": "Ce message est non toxique 5",
+    "label": 0
+  },
+  {
+    "text": "Ce message est toxique 10",
+    "label": 1
+  },
+  {
+    "text": "Ce message est toxique 3",
+    "label": 1
+  },
+  {
+    "text": "Ce message est toxique 24",
+    "label": 1
+  },
+  {
+    "text": "Ce message est non toxique 22",
+    "label": 0
+  },
+  {
+    "text": "Ce message est toxique 9",
+    "label": 1
+  },
+  {
+    "text": "Ce message est toxique 7",
+    "label": 1
+  },
+  {
+    "text": "Ce message est non toxique 24",
+    "label": 0
+  },
+  {
+    "text": "Ce message est toxique 0",
+    "label": 1
+  },
+  {
+    "text": "Ce message est toxique 6",
+    "label": 1
+  },
+  {
+    "text": "Ce message est non toxique 19",
+    "label": 0
+  },
+  {
+    "text": "Ce message est toxique 5",
+    "label": 1
+  },
+  {
+    "text": "Ce message est non toxique 7",
+    "label": 0
+  },
+  {
+    "text": "Ce message est non toxique 15",
+    "label": 0
+  },
+  {
+    "text": "Ce message est toxique 1",
+    "label": 1
+  },
+  {
+    "text": "Ce message est toxique 21",
+    "label": 1
+  },
+  {
+    "text": "Ce message est non toxique 9",
+    "label": 0
+  },
+  {
+    "text": "Ce message est non toxique 8",
+    "label": 0
+  },
+  {
+    "text": "Ce message est non toxique 2",
+    "label": 0
+  },
+  {
+    "text": "Ce message est non toxique 12",
+    "label": 0
+  },
+  {
+    "text": "Ce message est toxique 22",
+    "label": 1
+  },
+  {
+    "text": "Ce message est non toxique 14",
+    "label": 0
+  },
+  {
+    "text": "Ce message est non toxique 17",
+    "label": 0
+  },
+  {
+    "text": "Ce message est toxique 23",
+    "label": 1
+  },
+  {
+    "text": "Ce message est toxique 16",
+    "label": 1
+  },
+  {
+    "text": "Ce message est non toxique 21",
+    "label": 0
+  },
+  {
+    "text": "Ce message est non toxique 11",
+    "label": 0
+  },
+  {
+    "text": "Ce message est non toxique 18",
+    "label": 0
+  },
+  {
+    "text": "Ce message est toxique 13",
+    "label": 1
+  },
+  {
+    "text": "Ce message est non toxique 13",
+    "label": 0
+  },
+  {
+    "text": "Ce message est toxique 2",
+    "label": 1
+  },
+  {
+    "text": "Ce message est toxique 17",
+    "label": 1
+  },
+  {
+    "text": "Ce message est toxique 18",
+    "label": 1
+  },
+  {
+    "text": "Ce message est toxique 8",
+    "label": 1
+  },
+  {
+    "text": "Ce message est non toxique 20",
+    "label": 0
+  },
+  {
+    "text": "Ce message est non toxique 0",
+    "label": 0
+  },
+  {
+    "text": "Ce message est toxique 4",
+    "label": 1
+  },
+  {
+    "text": "Ce message est non toxique 16",
+    "label": 0
+  },
+  {
+    "text": "Ce message est toxique 14",
+    "label": 1
+  },
+  {
+    "text": "Ce message est non toxique 6",
+    "label": 0
+  },
+  {
+    "text": "Ce message est toxique 15",
+    "label": 1
+  },
+  {
+    "text": "Ce message est non toxique 10",
+    "label": 0
+  },
+  {
+    "text": "Ce message est toxique 19",
+    "label": 1
+  },
+  {
+    "text": "Ce message est non toxique 3",
+    "label": 0
+  },
+  {
+    "text": "Ce message est toxique 11",
+    "label": 1
+  },
+  {
+    "text": "Ce message est toxique 12",
+    "label": 1
+  },
+  {
+    "text": "Ce message est non toxique 23",
+    "label": 0
+  }
+]

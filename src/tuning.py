@@ -5,10 +5,9 @@ from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 
 
 def build_pipeline():
-    return Pipeline([
-        ("tfidf", TfidfVectorizer()),
-        ("clf", RandomForestClassifier(random_state=42))
-    ])
+    return Pipeline(
+        [("tfidf", TfidfVectorizer()), ("clf", RandomForestClassifier(random_state=42))]
+    )
 
 
 def grid_search(X, y, param_grid, cv=3, scoring="f1", verbose=1):
