@@ -1,0 +1,4 @@
+model,f1
+LogisticRegression,0.8571428571428571
+RandomForest,0.8571428571428571
+GradientBoosting,0.8571428571428571
