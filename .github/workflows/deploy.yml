@@ -1,0 +1,12 @@
+name: Deploy Pipeline
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: docker-compose build
+      - run: docker-compose up -d airflow
+      - run: sleep 60
+      - run: airflow dags list
