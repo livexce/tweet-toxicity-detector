@@ -8,9 +8,11 @@ model = joblib.load("models/toxicity_model.pkl")
 # 📋 Créer app
 app = FastAPI()
 
+
 # 📥 Schéma d'entrée
 class TweetInput(BaseModel):
     text: str
+
 
 # 🔮 Route de prédiction
 @app.post("/predict")
