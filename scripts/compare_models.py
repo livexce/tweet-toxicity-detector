@@ -1,5 +1,4 @@
 import pandas as pd
-import joblib
 from pathlib import Path
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
@@ -23,10 +22,12 @@ results = []
 
 # 🔁 Boucle sur les modèles
 for name, clf in models.items():
-    pipe = Pipeline([
-        ("tfidf", TfidfVectorizer()),
-        ("clf", clf),
-    ])
+    pipe = Pipeline(
+        [
+            ("tfidf", TfidfVectorizer()),
+            ("clf", clf),
+        ]
+    )
     pipe.fit(train["text"], train["label"])
     y_pred = pipe.predict(val["text"])
     f1 = f1_score(val["label"], y_pred)
